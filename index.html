@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essay Writing Practice App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Essay Writing Practice App</h1>
+            <p class="subtitle">Practice writing topic and concluding sentences</p>
+        </header>
+
+        <div class="content-wrapper">
+            <section class="essay-section">
+                <h2>Essay Topic: The Benefits and Limitations of Solar and Wind Power as Renewable Energy Sources</h2>
+                
+                <div class="instructions">
+                    <h3>Instructions:</h3>
+                    <p>Read the essay below. You will notice that the topic sentences and concluding sentences for the two main body paragraphs are <strong>missing</strong>.</p>
+                    <p>Your task is to:</p>
+                    <ul>
+                        <li>Write a <strong>topic sentence</strong> for Body Paragraph 1 (Benefits)</li>
+                        <li>Write a <strong>concluding sentence</strong> for Body Paragraph 1</li>
+                        <li>Write a <strong>topic sentence</strong> for Body Paragraph 2 (Limitations)</li>
+                        <li>Write a <strong>concluding sentence</strong> for Body Paragraph 2</li>
+                    </ul>
+                </div>
+
+                <div class="model-essay">
+                    <h3>Model Essay:</h3>
+
+                    <!-- Introduction -->
+                    <div class="paragraph intro-para">
+                        <p class="label">Introduction:</p>
+                        <p>As the world faces increasing environmental challenges, the shift toward renewable energy sources has become essential. Solar and wind power represent two of the most promising alternatives to fossil fuels, offering significant environmental benefits. However, despite their advantages, these renewable sources also face considerable limitations that must be addressed. This essay examines both the benefits and drawbacks of using solar and wind power as renewable energy solutions.</p>
+                    </div>
+
+                    <!-- Body Paragraph 1 - Benefits -->
+                    <div class="paragraph body-para">
+                        <p class="label">Body Paragraph 1 (Benefits):</p>
+                        <div class="blank-section">
+                            <label for="topicSentence1">Topic Sentence:</label>
+                            <textarea id="topicSentence1" class="student-input" placeholder="Write the topic sentence for this paragraph..."></textarea>
+                        </div>
+                        <p>First, solar and wind energy produce zero greenhouse gas emissions during operation, making them environmentally friendly alternatives to coal and natural gas. Unlike fossil fuel power plants, renewable energy installations do not contribute to air pollution or climate change once they are operational. Additionally, both solar panels and wind turbines have increasingly low maintenance costs and can generate electricity for 25-30 years, providing long-term energy security. These renewable sources also reduce dependence on imported fossil fuels, strengthening national energy independence and economic resilience.</p>
+                        <div class="blank-section">
+                            <label for="concludingSentence1">Concluding Sentence:</label>
+                            <textarea id="concludingSentence1" class="student-input" placeholder="Write the concluding sentence for this paragraph..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Body Paragraph 2 - Limitations -->
+                    <div class="paragraph body-para">
+                        <p class="label">Body Paragraph 2 (Limitations):</p>
+                        <div class="blank-section">
+                            <label for="topicSentence2">Topic Sentence:</label>
+                            <textarea id="topicSentence2" class="student-input" placeholder="Write the topic sentence for this paragraph..."></textarea>
+                        </div>
+                        <p>The most significant challenge facing solar and wind energy is their intermittency and weather dependency. Solar panels generate electricity only during daylight hours and are less efficient in cloudy conditions, while wind turbines require consistent wind speeds to operate effectively. This unpredictability necessitates expensive energy storage systems or backup power sources, increasing overall infrastructure costs. Furthermore, large-scale solar and wind farms require substantial land area, which can impact ecosystems and agricultural land use. The initial capital investment for renewable energy infrastructure is also considerably high, making widespread adoption difficult for developing countries.</p>
+                        <div class="blank-section">
+                            <label for="concludingSentence2">Concluding Sentence:</label>
+                            <textarea id="concludingSentence2" class="student-input" placeholder="Write the concluding sentence for this paragraph..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Conclusion -->
+                    <div class="paragraph conclusion-para">
+                        <p class="label">Conclusion:</p>
+                        <p>In conclusion, while solar and wind power offer remarkable environmental and economic benefits as renewable energy sources, they are not without limitations. The challenges of intermittency, infrastructure costs, and land use must be addressed through technological innovation and strategic planning. Nevertheless, renewable energy remains crucial to combating climate change, and with continued investment and development, solar and wind power can become increasingly viable components of our global energy system.</p>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="submitBtn" class="btn btn-primary">Submit Your Answers</button>
+                    <button id="resetBtn" class="btn btn-secondary">Reset Form</button>
+                    <button id="showModelBtn" class="btn btn-tertiary">Show Model Answers</button>
+                </div>
+
+                <!-- Feedback Section -->
+                <div id="feedbackSection" class="feedback-section hidden">
+                    <h3>Feedback</h3>
+                    <div id="feedbackContent"></div>
+                </div>
+
+                <!-- Model Answers Section -->
+                <div id="modelAnswersSection" class="model-answers-section hidden">
+                    <h3>Model Answers</h3>
+                    <div class="model-answer">
+                        <p><strong>Body Paragraph 1 - Topic Sentence (Example):</strong></p>
+                        <p>Solar and wind energy offer substantial environmental and economic benefits that make them attractive alternatives to traditional fossil fuels.</p>
+                    </div>
+                    <div class="model-answer">
+                        <p><strong>Body Paragraph 1 - Concluding Sentence (Example):</strong></p>
+                        <p>Thus, the environmental advantages and long-term cost savings of solar and wind energy demonstrate why these renewable sources are vital for a sustainable future.</p>
+                    </div>
+                    <div class="model-answer">
+                        <p><strong>Body Paragraph 2 - Topic Sentence (Example):</strong></p>
+                        <p>Despite their promise, solar and wind energy face significant practical limitations that hinder their widespread adoption as primary energy sources.</p>
+                    </div>
+                    <div class="model-answer">
+                        <p><strong>Body Paragraph 2 - Concluding Sentence (Example):</strong></p>
+                        <p>Consequently, overcoming these barriers through energy storage innovation and policy support is essential for renewable energy to achieve its full potential in meeting global energy demands.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
